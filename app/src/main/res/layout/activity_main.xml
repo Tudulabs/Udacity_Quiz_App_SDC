@@ -1,6 +1,5 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -20,7 +19,7 @@
                 android:id="@+id/Title_of_the_Test"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Do you understand how self driving cars work?"
+                android:text="@string/do_you_understand_how_self_driving_cars_work"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Large"
                 android:textStyle="bold" />
@@ -35,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:text="1. How do you think the cars see things in the world?"
+                android:text="@string/_1_how_do_you_think_the_cars_see_things_in_the_world"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
                 android:textColor="?android:attr/textColorPrimary" />
 
@@ -56,28 +55,28 @@
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="X-RAY" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/x_ray" />
 
                 <RadioButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="Thermal Imaging" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/thermal_imaging" />
 
                 <RadioButton
                     android:id="@+id/sonar_radio_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="Sonar" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/sonar" />
 
                 <RadioButton
                     android:id="@+id/lidar_radio_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="LIDAR" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/lidar" />
 
             </RadioGroup>
 
@@ -85,11 +84,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
                 android:paddingTop="20dp"
-                android:text="2. Self driving cars can:"
+                android:text="@string/_2_self_driving_cars_can"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
                 android:textColor="?android:attr/textColorPrimary" />
+
             <ImageView
                 android:id="@+id/question_2_checkmark"
                 android:layout_width="match_parent"
@@ -101,39 +102,41 @@
                 android:id="@+id/stop_at_red_lights"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Stop at red lights" />
+                android:layout_marginStart="15dp"
+                android:text="@string/stop_at_red_lights" />
 
             <CheckBox
                 android:id="@+id/slow_at_yellow_lights"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Slow at yellow lights" />
+                android:layout_marginStart="15dp"
+                android:text="@string/slow_at_yellow_lights" />
 
             <CheckBox
                 android:id="@+id/go_anywhere"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Go anywhere at anytime" />
+                android:layout_marginStart="15dp"
+                android:text="@string/go_anywhere_at_anytime" />
 
             <CheckBox
                 android:id="@+id/remember_things"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Remember things about streets" />
+                android:layout_marginStart="15dp"
+                android:text="@string/remember_things_about_streets" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
                 android:paddingTop="20dp"
-                android:text="3. Where are the most self driving cars driving as of March 2018?"
+                android:text="@string/_3_where_are_the_most_self_driving_cars_driving_as_of_march_2018"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
                 android:textColor="?android:attr/textColorPrimary" />
+
             <ImageView
                 android:id="@+id/question_3_checkmark"
                 android:layout_width="match_parent"
@@ -152,40 +155,42 @@
                     android:id="@+id/california_radio_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="California" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/california" />
 
                 <RadioButton
                     android:id="@+id/arizona_radio_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="Arizona" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/arizona" />
 
                 <RadioButton
                     android:id="@+id/new_york_radio_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="New York" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/new_york" />
 
                 <RadioButton
                     android:id="@+id/texas_radio_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:text="Texas" />
+                    android:layout_marginStart="15dp"
+                    android:text="@string/texas" />
 
             </RadioGroup>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
                 android:paddingTop="20dp"
-                android:text="4. How many self driving car permits are issued in California as of March 2018?"
+                android:text="@string/_4_how_many_self_driving_car_permits_are_issued_in_california_as_of_march_2018"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
                 android:textColor="?android:attr/textColorPrimary" />
+
             <ImageView
                 android:id="@+id/question_4_checkmark"
                 android:layout_width="match_parent"
@@ -194,25 +199,26 @@
                 app:srcCompat="@drawable/question_is_right" />
 
 
-
             <EditText
                 android:id="@+id/number_of_self_driving_cars_editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
                 android:ems="10"
-                android:hint="Enter a number"
+                android:hint="@string/enter_a_number"
                 android:inputType="number"
-                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
                 android:selectAllOnFocus="false" />
 
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
                 android:paddingTop="20dp"
-                android:text="5. In the future, self driving cars can help:"
+                android:text="@string/_5_in_the_future_self_driving_cars_can_help"
                 android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
                 android:textColor="?android:attr/textColorPrimary" />
 
@@ -227,29 +233,29 @@
                 android:id="@+id/question_5_answer_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Reduce the numbe of car accidents per year" />
+                android:layout_marginStart="15dp"
+                android:text="@string/reduce_the_numbe_of_car_accidents_per_year" />
 
             <CheckBox
                 android:id="@+id/question_5_answer_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Blind and deaf people get places" />
+                android:layout_marginStart="15dp"
+                android:text="@string/blind_and_deaf_people_get_places" />
 
             <CheckBox
                 android:id="@+id/question_5_wrong_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Cut back on energy usage" />
+                android:layout_marginStart="15dp"
+                android:text="@string/cut_back_on_energy_usage" />
 
             <CheckBox
                 android:id="@+id/question_5_wrong_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:text="Replace all race car drivers" />
+                android:layout_marginStart="15dp"
+                android:text="@string/replace_all_race_car_drivers" />
 
             <Button
                 android:id="@+id/submit_button"
@@ -257,7 +263,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="displayScore"
-                android:text="Submit" />
+                android:text="@string/submit" />
 
         </LinearLayout>
 

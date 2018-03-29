@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">TestQuizApp2</string>
+    <string name="do_you_understand_how_self_driving_cars_work">Do you understand how self driving cars work?</string>
+    <string name="_1_how_do_you_think_the_cars_see_things_in_the_world">1. How do you think the cars see things in the world?</string>
+    <string name="x_ray">X-RAY</string>
+    <string name="remember_things_about_streets">Remember things about streets</string>
+    <string name="thermal_imaging">Thermal Imaging</string>
+    <string name="sonar">Sonar</string>
+    <string name="reduce_the_numbe_of_car_accidents_per_year">Reduce the numbe of car accidents per year</string>
+    <string name="cut_back_on_energy_usage">Cut back on energy usage</string>
+    <string name="replace_all_race_car_drivers">Replace all race car drivers</string>
+    <string name="blind_and_deaf_people_get_places">Blind and deaf people get places</string>
+    <string name="submit">Submit</string>
+    <string name="lidar">LIDAR</string>
+    <string name="_2_self_driving_cars_can">2. Self driving cars can:</string>
+    <string name="stop_at_red_lights">Stop at red lights</string>
+    <string name="slow_at_yellow_lights">Slow at yellow lights</string>
+    <string name="go_anywhere_at_anytime">Go anywhere at anytime</string>
+    <string name="_4_how_many_self_driving_car_permits_are_issued_in_california_as_of_march_2018">4. How many self driving car permits are issued in California as of March 2018?</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="_5_in_the_future_self_driving_cars_can_help">5. In the future, self driving cars can help:</string>
+    <string name="california">California</string>
+    <string name="arizona">Arizona</string>
+    <string name="new_york">New York</string>
+    <string name="texas">Texas</string>
+    <string name="_3_where_are_the_most_self_driving_cars_driving_as_of_march_2018">3. Where are the most self driving cars driving as of March 2018?</string>
+    <string name="checkmark_question_is_right">checkmark_question_is_right</string>
+
 </resources>
