@@ -1,0 +1,269 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<View
+    android:id="@+id/toastView11"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    ></View>
+            <TextView
+                android:id="@+id/Title_of_the_Test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you understand how self driving cars work?"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Material.Large"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sdc1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1. How do you think the cars see things in the world?"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <ImageView
+                android:id="@+id/question_1_checkmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:srcCompat="@drawable/question_is_right" />
+
+            <RadioGroup
+                android:id="@+id/see_things_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:longClickable="false"
+                android:nestedScrollingEnabled="false">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="X-RAY" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Thermal Imaging" />
+
+                <RadioButton
+                    android:id="@+id/sonar_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Sonar" />
+
+                <RadioButton
+                    android:id="@+id/lidar_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="LIDAR" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="2. Self driving cars can:"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="?android:attr/textColorPrimary" />
+            <ImageView
+                android:id="@+id/question_2_checkmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:srcCompat="@drawable/question_is_right" />
+
+            <CheckBox
+                android:id="@+id/stop_at_red_lights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Stop at red lights" />
+
+            <CheckBox
+                android:id="@+id/slow_at_yellow_lights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Slow at yellow lights" />
+
+            <CheckBox
+                android:id="@+id/go_anywhere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Go anywhere at anytime" />
+
+            <CheckBox
+                android:id="@+id/remember_things"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Remember things about streets" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="3. Where are the most self driving cars driving as of March 2018?"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="?android:attr/textColorPrimary" />
+            <ImageView
+                android:id="@+id/question_3_checkmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:srcCompat="@drawable/question_is_right" />
+
+            <RadioGroup
+                android:id="@+id/most_cars_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:longClickable="false"
+                android:nestedScrollingEnabled="false">
+
+                <RadioButton
+                    android:id="@+id/california_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="California" />
+
+                <RadioButton
+                    android:id="@+id/arizona_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Arizona" />
+
+                <RadioButton
+                    android:id="@+id/new_york_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="New York" />
+
+                <RadioButton
+                    android:id="@+id/texas_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Texas" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="4. How many self driving car permits are issued in California as of March 2018?"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="?android:attr/textColorPrimary" />
+            <ImageView
+                android:id="@+id/question_4_checkmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:srcCompat="@drawable/question_is_right" />
+
+
+
+            <EditText
+                android:id="@+id/number_of_self_driving_cars_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:ems="10"
+                android:hint="Enter a number"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:selectAllOnFocus="false" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="5. In the future, self driving cars can help:"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <ImageView
+                android:id="@+id/question_5_checkmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:srcCompat="@drawable/question_is_right" />
+
+            <CheckBox
+                android:id="@+id/question_5_answer_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Reduce the numbe of car accidents per year" />
+
+            <CheckBox
+                android:id="@+id/question_5_answer_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Blind and deaf people get places" />
+
+            <CheckBox
+                android:id="@+id/question_5_wrong_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Cut back on energy usage" />
+
+            <CheckBox
+                android:id="@+id/question_5_wrong_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Replace all race car drivers" />
+
+            <Button
+                android:id="@+id/submit_button"
+                style="@android:style/Widget.Holo.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="displayScore"
+                android:text="Submit" />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
